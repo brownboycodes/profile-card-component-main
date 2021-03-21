@@ -30,11 +30,11 @@ body {
 .card {
   display: flex;
   flex-direction: column;
-  width: 400px;
-  height: 450px;
+  width: 352px;
+  height: 376px;
   background: #fefefe;
   margin: auto;
-  border-radius: 20px;
+  border-radius: 15px;
   overflow: hidden;
   position: relative;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
@@ -42,6 +42,7 @@ body {
 
 .card .card-header {
   flex: 0.3;
+  height: 142px;
 }
 
 .card .card-header img {
@@ -50,22 +51,27 @@ body {
 
 .card .card-content {
   flex: 0.5;
+  height: 143px;
+  justify-content: center;
+  align-items: center;
 }
 
 .card .card-content img {
   border-radius: 50%;
   transform: translateY(-50%);
   border: 7px solid #fefefe;
+  
 }
 
 .card .card-content p {
   color: hsl(227, 10%, 46%);
-  font-size: 18px;
+  font-size: 16px;
+  /* margin-bottom: 15px; */
 }
 
 .card .card-content p:first-of-type {
   font-weight: bold;
-  font-size: 24px;
+  font-size: 15px;
   color: hsl(229, 23%, 23%);
 }
 
@@ -82,6 +88,7 @@ body {
   justify-content: space-evenly;
   border-top: 2px solid #d8d9df;
   color: hsl(229, 23%, 23%);
+  height: 90px;
 }
 
 .card .card-footer .footer-item {
